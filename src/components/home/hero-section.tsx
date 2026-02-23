@@ -12,18 +12,11 @@ interface HeroSectionProps {
 
 export function HeroSection({ isVisible }: HeroSectionProps) {
   return (
-    <section className="relative z-10 container mx-auto px-4 py-14 md:py-24 text-center">
+    <section className="relative z-10 container mx-auto px-4 py-14 md:py-28 text-center">
       <div className="max-w-7xl mx-auto">
         <div
           className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
         >
-          <div className="mb-8 animate-slide-up">
-            <SectionBadge
-              icon={<Sparkles className="h-4 w-4 text-[#388087] animate-pulse" />}
-              label="Your Health, Our Priority"
-            />
-          </div>
-
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up">
             <span className="bg-gradient-to-r from-[#388087] via-[#6FB3B8] to-[#388087] bg-clip-text text-transparent animate-gradient">
               Book Your Doctor Appointment

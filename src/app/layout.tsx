@@ -1,20 +1,20 @@
-import type { Metadata } from "next";
-import { Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google';
+import './globals.css';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
-  variable: "--font-sans-app",
-  subsets: ["latin"],
+  variable: '--font-sans-app',
+  subsets: ['latin'],
 });
 
 const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-mono-app",
-  subsets: ["latin"],
+  variable: '--font-mono-app',
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
-  title: "DocApp - Doctor Appointment Booking System",
-  description: "Book appointments with doctors effortlessly",
+  title: 'DocApp - Doctor Appointment Booking System',
+  description: 'Book appointments with doctors effortlessly',
 };
 
 export default function RootLayout({
