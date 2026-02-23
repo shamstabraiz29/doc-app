@@ -78,7 +78,7 @@ export function Navbar() {
             <Stethoscope className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-[#388087] animate-pulse-slow" />
             <Sparkles className="h-3 w-3 sm:h-3.5 sm:w-3.5 md:h-4 md:w-4 text-[#6FB3B8] absolute -top-0.5 -right-0.5 md:-top-1 md:-right-1 animate-pulse" />
           </div>
-          <span className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-[#388087] to-[#6FB3B8] bg-clip-text text-transparent">
+          <span className="text-xl sm:text-2xl font-bold text-[#2d6a70] [text-shadow:0_1px_2px_rgba(255,255,255,0.8)]">
             DocApp
           </span>
         </Link>

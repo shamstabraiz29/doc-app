@@ -54,7 +54,7 @@ export function FeaturesSection() {
               />
             }
             title={
-              <span className="bg-gradient-to-r from-[#388087] to-[#6FB3B8] bg-clip-text text-transparent">
+              <span>
                 Everything You Need
               </span>
             }

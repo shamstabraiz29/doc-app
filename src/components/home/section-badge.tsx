@@ -11,7 +11,7 @@ export function SectionBadge({ icon, label }: SectionBadgeProps) {
   return (
     <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full shadow-md">
       {icon}
-      <span className="text-sm font-medium text-[#388087]">{label}</span>
+      <span className="text-sm font-medium text-[#2d6a70]">{label}</span>
     </div>
   );
 }

@@ -37,7 +37,7 @@ export function FeatureCard({
           >
             <Icon className={`h-10 w-10 ${iconClassName}`} />
           </div>
-          <h3 className="text-2xl font-bold text-[#388087] mb-4">{title}</h3>
+          <h3 className="text-2xl font-bold text-[#2d6a70] mb-4">{title}</h3>
           <p className="text-base text-gray-600 leading-relaxed mb-6">
             {description}
           </p>

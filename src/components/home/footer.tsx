@@ -25,7 +25,7 @@ export function Footer() {
                     <Stethoscope className="h-7 w-7 text-[#388087]" />
                     <Sparkles className="h-3 w-3 text-[#6FB3B8] absolute -top-1 -right-1" />
                   </div>
-                  <span className="text-2xl font-bold bg-gradient-to-r from-[#388087] to-[#6FB3B8] bg-clip-text text-transparent">
+                  <span className="text-2xl font-bold text-[#2d6a70] [text-shadow:0_1px_2px_rgba(255,255,255,0.8)]">
                     DocApp
                   </span>
                 </div>
@@ -46,7 +46,7 @@ export function Footer() {
 
             <AnimateOnScroll variant="fadeUp" delay={80}>
               <div>
-                <h4 className="font-bold text-[#388087] mb-6 text-lg">
+                <h4 className="font-bold text-[#2d6a70] mb-6 text-lg">
                   Quick Links
                 </h4>
                 <ul className="space-y-3 text-sm">
@@ -83,7 +83,7 @@ export function Footer() {
 
             <AnimateOnScroll variant="fadeUp" delay={160}>
               <div>
-                <h4 className="font-bold text-[#388087] mb-6 text-lg">
+                <h4 className="font-bold text-[#2d6a70] mb-6 text-lg">
                   Support
                 </h4>
                 <ul className="space-y-3 text-sm">
@@ -111,7 +111,7 @@ export function Footer() {
 
             <AnimateOnScroll variant="fadeUp" delay={240}>
               <div>
-                <h4 className="font-bold text-[#388087] mb-6 text-lg">
+                <h4 className="font-bold text-[#2d6a70] mb-6 text-lg">
                   Get Started
                 </h4>
                 <div className="flex flex-col gap-3">

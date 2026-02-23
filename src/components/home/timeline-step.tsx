@@ -30,11 +30,11 @@ export function TimelineStep({
 }: TimelineStepProps) {
   const desktopContent = (
     <>
-      <div className="inline-flex items-center gap-2 text-xs font-semibold text-[#388087] uppercase tracking-wider mb-3">
+      <div className="inline-flex items-center gap-2 text-xs font-semibold text-[#2d6a70] uppercase tracking-wider mb-3">
         <Icon className="h-4 w-4" />
         Step {stepNumber}
       </div>
-      <h3 className="text-2xl font-bold text-[#388087] mb-3">{title}</h3>
+      <h3 className="text-2xl font-bold text-[#2d6a70] mb-3">{title}</h3>
       <p
         className={`text-base text-gray-600 leading-relaxed max-w-sm ${contentOnRight ? '' : 'ml-auto'}`}
       >
@@ -44,11 +44,11 @@ export function TimelineStep({
   );
   const mobileContent = (
     <>
-      <div className="inline-flex items-center gap-2 text-xs font-semibold text-[#388087] uppercase tracking-wider mb-3 md:hidden">
+      <div className="inline-flex items-center gap-2 text-xs font-semibold text-[#2d6a70] uppercase tracking-wider mb-3 md:hidden">
         <Icon className="h-4 w-4" />
         Step {stepNumber}
       </div>
-      <h3 className="text-2xl font-bold text-[#388087] mb-3 md:hidden">
+      <h3 className="text-2xl font-bold text-[#2d6a70] mb-3 md:hidden">
         {title}
       </h3>
       <p className="text-gray-600 leading-relaxed text-base md:hidden">

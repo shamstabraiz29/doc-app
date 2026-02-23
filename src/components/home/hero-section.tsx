@@ -17,15 +17,12 @@ export function HeroSection({ isVisible }: HeroSectionProps) {
         <div
           className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
         >
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up">
-            <span className="bg-gradient-to-r from-[#388087] via-[#6FB3B8] to-[#388087] bg-clip-text text-transparent animate-gradient">
-              Book Your Doctor Appointment
-            </span>
-            <br />
-            <span className="text-[#388087] mt-2 block">Effortlessly</span>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up text-[#2d6a70] [text-shadow:0_1px_2px_rgba(255,255,255,0.8)]">
+            <span className="block">Book Your Doctor</span>
+            <span className="mt-2 block"> Appointment Effortlessly</span>
           </h1>
 
-          <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed animate-slide-up">
+          <p className="text-xl text-gray-700 mb-12 max-w-3xl mx-auto leading-relaxed animate-slide-up">
             Find the right doctor, book appointments instantly, and manage your
             healthcare journey all in one seamless platform.
           </p>
