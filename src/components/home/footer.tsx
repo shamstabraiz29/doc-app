@@ -2,7 +2,14 @@
 
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Stethoscope, Sparkles, ArrowRight, Phone, Mail, Clock } from 'lucide-react';
+import {
+  Stethoscope,
+  Sparkles,
+  ArrowRight,
+  Phone,
+  Mail,
+  Clock,
+} from 'lucide-react';
 import { AnimateOnScroll } from '@/components/animate-on-scroll';
 
 export function Footer() {
@@ -48,7 +55,7 @@ export function Footer() {
                       href="/dashboard"
                       className="text-gray-600 hover:text-[#388087] transition-colors duration-300 flex items-center gap-2 group"
                     >
-                      <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      <ArrowRight className="h-4 w-4 text-[#388087] opacity-70 group-hover:opacity-100 transition-opacity shrink-0" />
                       <span>Dashboard</span>
                     </Link>
                   </li>
@@ -57,7 +64,7 @@ export function Footer() {
                       href="/doctors"
                       className="text-gray-600 hover:text-[#388087] transition-colors duration-300 flex items-center gap-2 group"
                     >
-                      <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      <ArrowRight className="h-4 w-4 text-[#388087] opacity-70 group-hover:opacity-100 transition-opacity shrink-0" />
                       <span>Find Doctors</span>
                     </Link>
                   </li>
@@ -66,7 +73,7 @@ export function Footer() {
                       href="/my-appointments"
                       className="text-gray-600 hover:text-[#388087] transition-colors duration-300 flex items-center gap-2 group"
                     >
-                      <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      <ArrowRight className="h-4 w-4 text-[#388087] opacity-70 group-hover:opacity-100 transition-opacity shrink-0" />
                       <span>My Appointments</span>
                     </Link>
                   </li>
@@ -109,8 +116,18 @@ export function Footer() {
                 </h4>
                 <div className="flex flex-col gap-3">
                   {[
-                    { href: '/signup', label: 'Sign Up Free', variant: 'default' as const, showArrow: true },
-                    { href: '/login', label: 'Sign In', variant: 'outline' as const, showArrow: false },
+                    {
+                      href: '/signup',
+                      label: 'Sign Up Free',
+                      variant: 'default' as const,
+                      showArrow: true,
+                    },
+                    {
+                      href: '/login',
+                      label: 'Sign In',
+                      variant: 'outline' as const,
+                      showArrow: false,
+                    },
                   ].map(({ href, label, variant, showArrow }) => (
                     <Link key={href} href={href}>
                       <Button variant={variant} className="w-full">
