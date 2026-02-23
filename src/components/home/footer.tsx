@@ -130,7 +130,7 @@ export function Footer() {
                     },
                   ].map(({ href, label, variant, showArrow }) => (
                     <Link key={href} href={href}>
-                      <Button variant={variant} className="w-full">
+                      <Button size="lg" variant={variant} className="w-full">
                         {label}
                         {showArrow && <ArrowRight className="ml-2 h-4 w-4" />}
                       </Button>
