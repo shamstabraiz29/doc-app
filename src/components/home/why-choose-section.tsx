@@ -1,6 +1,16 @@
 'use client';
 
-import { Heart, Shield, Zap, FileCheck, Clock, Star, Calendar, Bell, Smartphone } from 'lucide-react';
+import {
+  Heart,
+  Shield,
+  Zap,
+  FileCheck,
+  Clock,
+  Star,
+  Calendar,
+  Bell,
+  Smartphone,
+} from 'lucide-react';
 import { AnimateOnScroll } from '@/components/animate-on-scroll';
 import { SectionBadge } from './section-badge';
 import { SectionHeader } from './section-header';
@@ -81,15 +91,15 @@ export function WhyChooseSection() {
             }
             title={
               <span className="bg-gradient-to-r from-[#388087] to-[#6FB3B8] bg-clip-text text-transparent">
-                Simple, friendly, and built for you
+                Simple & built for you
               </span>
             }
-            description="Healthcare that puts you first—book with confidence and get back to what matters."
+            description="Healthcare that puts you first. Book with confidence."
             descriptionMaxWidth="2xl"
           />
         </AnimateOnScroll>
 
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto mt-10 md:mt-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 max-w-4xl mx-auto w-full">
             {ITEMS.map((item) => (
               <WhyChooseItem key={item.title} {...item} />

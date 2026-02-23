@@ -27,7 +27,7 @@ export function SectionHeader({
         <p
           className={`text-xl text-gray-600 ${maxWidthClass} mx-auto leading-relaxed`}
         >
-          {description}dd
+          {description}
         </p>
       )}
     </div>
