@@ -1,0 +1,15 @@
+export { AnimatedCounter } from './animated-counter';
+export { AnimatedBackground } from './animated-background';
+export { Navbar } from './navbar';
+export { SectionBadge } from './section-badge';
+export { SectionHeader } from './section-header';
+export { TrustIndicators } from './trust-indicators';
+export { FeatureCard } from './feature-card';
+export { HeroSection } from './hero-section';
+export { FeaturesSection } from './features-section';
+export { TimelineStep } from './timeline-step';
+export { HowItWorksSection } from './how-it-works-section';
+export { WhyChooseItem } from './why-choose-item';
+export { WhyChooseSection } from './why-choose-section';
+export { CTASection } from './cta-section';
+export { Footer } from './footer';
