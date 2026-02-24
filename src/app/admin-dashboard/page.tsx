@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { Select } from "@/components/ui/select"
+import { NativeSelect } from "@/components/ui/select"
 import {
   Users,
   Stethoscope,
@@ -401,12 +401,12 @@ export default function AdminDashboardPage() {
             <div className="flex justify-between items-center">
               <h2 className="text-2xl font-bold text-[#388087]">Appointment Monitoring</h2>
               <div className="flex gap-2">
-                <Select defaultValue="all">
+                <NativeSelect defaultValue="all">
                   <option value="all">All Status</option>
                   <option value="pending">Pending</option>
                   <option value="confirmed">Confirmed</option>
                   <option value="completed">Completed</option>
-                </Select>
+                </NativeSelect>
                 <Input type="date" className="w-auto" />
               </div>
             </div>
