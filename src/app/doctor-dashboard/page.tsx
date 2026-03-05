@@ -23,7 +23,6 @@ import {
   User,
   Settings,
   LogOut,
-  Stethoscope,
 } from 'lucide-react';
 
 // Mock data
@@ -75,32 +74,6 @@ export default function DoctorDashboardPage() {
 
   return (
     <div className="min-h-screen bg-[#F6F6F2]">
-      {/* Header */}
-      <header className="bg-white shadow-sm border-b border-[#BADFE7]">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Stethoscope className="h-8 w-8 text-[#388087]" />
-            <span className="text-2xl font-bold text-[#388087]">
-              Doctor Portal
-            </span>
-          </div>
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" className="text-[#388087]">
-              <User className="h-4 w-4 mr-2" />
-              Profile
-            </Button>
-            <Button variant="ghost" className="text-[#388087]">
-              <Settings className="h-4 w-4 mr-2" />
-              Settings
-            </Button>
-            <Button variant="ghost" className="text-red-600">
-              <LogOut className="h-4 w-4 mr-2" />
-              Logout
-            </Button>
-          </div>
-        </div>
-      </header>
-
       <div className="container mx-auto px-4 py-8">
         {/* Tabs */}
         <div className="flex gap-2 mb-6 border-b">

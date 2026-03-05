@@ -75,11 +75,7 @@ export function HowItWorksSection() {
                 label="Simple Process"
               />
             }
-            title={
-              <span>
-                How It Works
-              </span>
-            }
+            title={<span>How It Works</span>}
             description="Book your appointment in just a few simple steps"
             descriptionMaxWidth="2xl"
           />

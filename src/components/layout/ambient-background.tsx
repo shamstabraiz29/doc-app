@@ -1,0 +1,23 @@
+'use client';
+
+/**
+ * Ambient background with blur orbs and subtle pattern.
+ * Shared by dashboard and doctor detail pages.
+ */
+export function AmbientBackground() {
+  return (
+    <div
+      className="fixed inset-0 pointer-events-none overflow-hidden"
+      aria-hidden
+    >
+      <div className="absolute -top-40 -right-40 w-[480px] h-[480px] rounded-full bg-primary/8 blur-3xl" />
+      <div className="absolute top-1/2 -left-32 w-[320px] h-[320px] rounded-full bg-accent/10 blur-3xl" />
+      <div
+        className="absolute inset-0 opacity-[0.015]"
+        style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z' fill='%23000' fill-opacity='1' fill-rule='nonzero' opacity='1'/%3E%3C/g%3E%3C/svg%3E")`,
+        }}
+      />
+    </div>
+  );
+}

@@ -148,6 +148,14 @@
     animation: scaleIn 0.5s ease-out;
   }
 
+  .animate-check-badge-pop {
+    animation: checkBadgePop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .animate-check-icon-in {
+    animation: checkIconIn 0.35s ease-out 0.2s both;
+  }
+
   .animate-float {
     animation: float 6s ease-in-out infinite;
   }
@@ -330,5 +338,31 @@
   }
   100% {
     background-position: 1000px 0;
+  }
+}
+
+@keyframes checkBadgePop {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.12);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes checkIconIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
 }

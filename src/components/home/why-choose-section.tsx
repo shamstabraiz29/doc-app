@@ -89,11 +89,7 @@ export function WhyChooseSection() {
                 label="Why Choose DocApp"
               />
             }
-            title={
-              <span>
-                Simple & built for you
-              </span>
-            }
+            title={<span>Simple & built for you</span>}
             description="Healthcare that puts you first. Book with confidence."
             descriptionMaxWidth="2xl"
           />

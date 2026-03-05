@@ -12,7 +12,7 @@ interface HeroSectionProps {
 
 export function HeroSection({ isVisible }: HeroSectionProps) {
   return (
-    <section className="relative z-10 container mx-auto px-4 py-14 md:py-40 text-center">
+    <section className="relative z-10 container mx-auto px-4 py-14 md:py-40 text-center ">
       <div className="max-w-7xl mx-auto">
         <div
           className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
@@ -34,7 +34,7 @@ export function HeroSection({ isVisible }: HeroSectionProps) {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
-            <Link href="/dashboard">
+            <Link href="/doctors">
               <Button size="lg" variant="outline">
                 View Dashboard
               </Button>

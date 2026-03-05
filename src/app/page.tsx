@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react';
 import {
   AnimatedBackground,
-  Navbar,
   HeroSection,
   FeaturesSection,
   HowItWorksSection,
@@ -20,10 +19,8 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#BADFE7] via-[#F6F6F2] to-[#C2EDCE] overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-[#BADFE7] via-[#F6F6F2] to-[#C2EDCE] overflow-hidden pt-10">
       <AnimatedBackground />
-
-      <Navbar />
 
       <HeroSection isVisible={isVisible} />
 

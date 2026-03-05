@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
+import { SiteHeader } from '@/components/layout';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: '--font-sans-app',
@@ -27,7 +28,8 @@ export default function RootLayout({
       <body
         className={`${plusJakartaSans.variable} ${jetbrainsMono.variable} font-sans antialiased animate-page-in`}
       >
-        {children}
+        <SiteHeader />
+        <div>{children}</div>
       </body>
     </html>
   );

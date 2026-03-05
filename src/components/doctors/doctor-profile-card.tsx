@@ -6,6 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Clock, MapPin, Building2, ArrowRight, Calendar } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { Badge } from '../ui/badge';
 
 export interface DoctorProfile {
   id: number | string;
@@ -113,12 +114,14 @@ export function DoctorProfileCard({
             </span>
             <div className="flex flex-wrap gap-2">
               {slotsToShow.map((slot) => (
-                <span
+                <Badge
                   key={slot}
-                  className="inline-flex items-center rounded-xl px-3 py-1.5 text-xs font-medium bg-primary/10 text-primary border border-primary/15"
+                  variant="outline"
+                  className="inline-flex items-center gap-1.5 rounded-2xl border border-primary/20 bg-primary/5/60 px-3 py-1 text-xs font-medium text-primary/90 shadow-sm shadow-primary/5 hover:bg-primary/10 hover:border-primary/30 transition-colors"
                 >
+                  <span className="h-1.5 w-1.5 rounded-full bg-primary" />
                   {slot}
-                </span>
+                </Badge>
               ))}
             </div>
           </div>

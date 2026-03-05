@@ -52,15 +52,6 @@ export function Footer() {
                 <ul className="space-y-3 text-sm">
                   <li>
                     <Link
-                      href="/dashboard"
-                      className="text-gray-600 hover:text-[#388087] transition-colors duration-300 flex items-center gap-2 group"
-                    >
-                      <ArrowRight className="h-4 w-4 text-[#388087] opacity-70 group-hover:opacity-100 transition-opacity shrink-0" />
-                      <span>Dashboard</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
                       href="/doctors"
                       className="text-gray-600 hover:text-[#388087] transition-colors duration-300 flex items-center gap-2 group"
                     >

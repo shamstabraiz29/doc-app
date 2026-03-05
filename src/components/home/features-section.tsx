@@ -53,11 +53,7 @@ export function FeaturesSection() {
                 label="Powerful Features"
               />
             }
-            title={
-              <span>
-                Everything You Need
-              </span>
-            }
+            title={<span>Everything You Need</span>}
             description="Experience healthcare management like never before with our comprehensive suite of features designed for your convenience"
           />
         </AnimateOnScroll>
